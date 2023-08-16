@@ -30,3 +30,5 @@ void main() {
     ),
   );
 }
+
+class GradientContainer extends StatelessWidget {}
