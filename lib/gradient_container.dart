@@ -26,12 +26,12 @@ class GradientContainer extends StatelessWidget {
               'assets/images/dice-1.png',
               width: 200,
             ),
+            const SizedBox(
+              height: 20,
+            ),
             TextButton(
               onPressed: () {}, // Anonymous Function
               style: TextButton.styleFrom(
-                padding: const EdgeInsets.only(
-                  top: 20,
-                ),
                 foregroundColor: Colors.white,
                 textStyle: const TextStyle(
                   fontSize: 30,
