@@ -4,6 +4,7 @@ import 'package:roll_dice_app/gradient_container.dart';
 void main() {
   runApp(
     const MaterialApp(
+      title: 'Roll a Dice',
       home: Scaffold(
         body: GradientContainer(
           [
